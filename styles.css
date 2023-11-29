@@ -1,0 +1,125 @@
+:root {
+
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+
+    --color-background: #0E1014;
+    --color-text-primary: #E4E5EA;
+    --color-text-secondary: #656566;
+    --color-button: rgba(64, 119, 243, 1);
+    --color-link: rgba(252, 176, 69, 1);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+a {
+
+    &:visited,
+    &:link {
+        display: block;
+        color: white;
+        text-decoration: none;
+        transition: all .2s;
+    }
+
+    &:hover {
+        color: var(--color-link);
+    }
+
+    >img:hover {
+        filter: brightness(0) saturate(100%) invert(92%) sepia(19%) saturate(4807%) hue-rotate(324deg) brightness(101%) contrast(98%);
+    }
+
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px;
+    width: 100%;
+
+    color: var(--color-text-primary);
+    font-family: var(--font-primary);
+
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.6rem;
+
+
+    background-color: var(--color-background);
+
+    border: 1px solid var(--color-primary);
+}
+
+.wrapper {
+    padding: 46px 150px 0 150px;
+}
+
+.header {
+    border: 1px solid var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12px;
+
+
+    .header__contacts {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header__socials {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding-left: 47px;
+        padding-top: 2px;
+    }
+
+    .header__phone {
+        padding-top: 3px;
+    }
+
+}
+
+.logo {
+    width: 14rem;
+    margin-right: 5.2rem;
+
+    .logo__icon {
+        margin-bottom: 0.8rem;
+
+        img {
+            min-width: 100%;
+        }
+    }
+
+    .logo__title {
+        font-size: 1rem;
+        font-family: var(--font-secondary);
+        font-weight: 300;
+    }
+}
+
+.nav {
+    flex-direction: row;
+    padding-top: 0.4rem;
+    flex-grow: 1;
+
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .nav__item {
+        font-weight: 500;
+    }
+
+}
