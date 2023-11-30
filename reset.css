@@ -1,9 +1,3 @@
-/* *,
-*:before,
-*:after {
-    box-sizing: border-box;
-} */
-
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -95,6 +89,9 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+}
+
+li {
     list-style-type: none;
 }
 
