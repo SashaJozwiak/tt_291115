@@ -520,7 +520,7 @@ body {
 
 @media (max-width: 320px) {
     .wrapper {
-        background-image: url(../assets/img/bg-mobile.png);
+        background-image: url(./assets/img/bg-mobile.png);
         background-position: 0 5.5rem;
     }
 
