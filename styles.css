@@ -70,11 +70,7 @@ body {
     font-weight: 400;
     line-height: 1.2;
     font-size: 1.6rem;
-
-
     background-color: var(--color-background);
-
-    /*  border: 1px solid var(--color-primary); */
 }
 
 .wrapper {
@@ -84,11 +80,11 @@ body {
     padding: 46px 150px 0 150px;
     margin: 0 auto;
     
-        background-image: url("../assets/img/purple_ball.png"),
-            url("../assets/img/red_ball.png"),
-            url("../assets/img/red_ball_small.png"),
-            url("../assets/img/purple_light.png"),
-            url("../assets/img/red_light.png");
+        background-image: url("./assets/img/purple_ball.png"),
+                url("./assets/img/red_ball.png"),
+                url("./assets/img/red_ball_small.png"),
+                url("./assets/img/purple_light.png"),
+                url("./assets/img/red_light.png");
         background-position: 64% 0, 38% 8.5%, 61% 58%, 55% -3%, -5% 20%;
         background-repeat: no-repeat;
 }
@@ -254,7 +250,6 @@ body {
     }
 }
 
-
 /* === FOOTER === */
 .footer {
     display: flex;
@@ -319,7 +314,6 @@ body {
 
 }
 
-
 .copyright {
     display: block;
     font-family: var(--font-secondary);
@@ -340,7 +334,6 @@ body {
 .query_mm {
     display: none;
 }
-
 
 /* === MEDIA QUERY === */
 
